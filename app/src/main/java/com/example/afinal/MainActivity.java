@@ -21,6 +21,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.Menu;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -91,13 +92,19 @@ public class MainActivity extends AppCompatActivity
             startActivity(new Intent(getApplicationContext(),Cybersafety.class));
         } else if (id == R.id.nav_gallery) {
 
+            Toast.makeText(this, "Under Construction", Toast.LENGTH_SHORT).show();
+
         } else if (id == R.id.nav_slideshow) {
+            Toast.makeText(this, "Under Construction", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_tools) {
+            Toast.makeText(this, "Under Construction", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_share) {
+            Toast.makeText(this, "Under Construction", Toast.LENGTH_SHORT).show();
 
         } else if (id == R.id.nav_send) {
+            Toast.makeText(this, "Under Construction", Toast.LENGTH_SHORT).show();
 
         }
 

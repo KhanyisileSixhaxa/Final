@@ -16,6 +16,7 @@ public class Cybersafety extends AppCompatActivity implements View.OnClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cybersafety);
         getSupportActionBar().setTitle("Cybersafety and Information Literacy");
+        getSupportActionBar().setHomeButtonEnabled(true);
 
         imageView3 = (ImageView)findViewById(R.id.imageView3);
         imageView4 = (ImageView)findViewById(R.id.imageView4);
